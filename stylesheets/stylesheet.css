@@ -232,6 +232,50 @@ a {
 .site-footer-credits {
   color: #819198; }
 
+li{
+  list-style-type: none;
+}
+
+.menu{
+  text-align: center;
+}
+
+.me{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+
+
+.me li:hover{
+  background-color: white; 
+}
+
+.me li:hover a{
+  color: black; 
+}
+
+.passive:hover ul{
+  display: block;
+}
+
+.me li{
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.me a{
+  color: white;
+  text-decoration: none;
+}
+
+.podmenu{
+  display: none;
+  grid-template-columns: 1fr;
+  position: relative;
+}
+
 @media screen and (min-width: 64em) {
   .site-footer {
     font-size: 1rem; } }
