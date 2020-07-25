@@ -367,6 +367,6 @@ li{
 @media screen and (max-width: 42em) {
   .me {
     display: grid;
-  grid-template-columns: 300px ;
-  align-items: normal;
+  grid-template-columns: 1fr ;
+  align-items: start;
   justify-content: start; } }
