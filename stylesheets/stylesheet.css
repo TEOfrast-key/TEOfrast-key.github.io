@@ -238,9 +238,9 @@ li{
 
 .me{
   display: grid;
-  grid-template-columns: 300px 300px 300px;
-  align-items: center;
-  justify-content: center;
+  grid-template-columns: 200px 200px 200px;
+  align-items: start;
+  justify-content: start;
 }
 
 
@@ -353,16 +353,14 @@ li{
 @media screen and (min-width: 64em) {
   .me {
     display: grid;
-  grid-template-columns: 300px 300px 300px;
-  align-items: center;
-  justify-content: center; } }
+  grid-template-columns: 200px 200px 200px;
+   } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .me {
     display: grid;
-  grid-template-columns: 300px 300px ;
-  align-items: center;
-  justify-content: center; } }
+  grid-template-columns:200px 200px ;
+   } }
 
 @media screen and (max-width: 42em) {
   .me {
