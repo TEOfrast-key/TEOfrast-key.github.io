@@ -245,14 +245,6 @@ li{
 
 
 
-.me li:hover{
-  background-color: white; 
-}
-
-.me li:hover a{
-  color: black; 
-}
-
 .passive li{
   background-color: white;
 }
