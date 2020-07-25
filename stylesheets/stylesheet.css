@@ -349,3 +349,24 @@ li{
   left: -20%;
 }
 .arrow-btn:hover span:before {left: -25%;}
+
+@media screen and (min-width: 64em) {
+  .me {
+    display: grid;
+  grid-template-columns: 300px 300px 300px;
+  align-items: center;
+  justify-content: center; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .me {
+    display: grid;
+  grid-template-columns: 100px 100px ;
+  align-items: center;
+  justify-content: center; } }
+
+@media screen and (max-width: 42em) {
+  .me {
+    display: grid;
+  grid-template-columns: 100px ;
+  align-items: center;
+  justify-content: center; } }
