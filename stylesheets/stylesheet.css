@@ -252,18 +252,15 @@ li{
   color: black; 
 }
 
-.passive:hover ul{
-  display: grid;
-  grid-template-columns: 1fr;
-
-}
-
 .passive li{
   background-color: white;
 }
-
+.passive:hover .podmenu{
+  display: block;
+}
 .passive li:hover{
-  background-color: grey;
+  background-color: rgb(26, 8, 189);
+  
 }
 .me li{
   border-radius: 10px;
@@ -276,7 +273,7 @@ li{
   padding: 10px;
 }
 
-.podmenu{
+.podmenu {
   display: none;
   position: absolute;
   z-index: 9999;
