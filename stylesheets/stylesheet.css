@@ -271,6 +271,8 @@ li{
   transition: 0.5s ease-in-out;
 }
 
+
+
 @media screen and (min-width: 64em) {
   .site-footer {
     font-size: 1rem; } }
